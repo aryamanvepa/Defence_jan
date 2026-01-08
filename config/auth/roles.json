@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "roles": {
+    "admin": {
+      "allowed_entity_types": ["drone", "infantry", "radar", "vehicle", "artillery"],
+      "max_clearance_cap": 10
+    },
+    "operator": {
+      "allowed_entity_types": ["drone", "infantry"],
+      "max_clearance_cap": 3
+    }
+  }
+}
+

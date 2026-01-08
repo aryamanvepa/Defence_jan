@@ -1,0 +1,12 @@
+{
+  "title": "LoginRequest",
+  "type": "object",
+  "required": ["username", "password", "device_id"],
+  "properties": {
+    "username": { "type": "string", "minLength": 3 },
+    "password": { "type": "string", "minLength": 6 },
+    "device_id": { "type": "string", "minLength": 3 }
+  },
+  "additionalProperties": false
+}
+

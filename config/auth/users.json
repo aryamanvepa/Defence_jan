@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "users": [
+    {
+      "user_id": "u_hq_admin_001",
+      "username": "hq_admin",
+      "password_hash": "pbkdf2_sha256$210000$3NdAlK18bgxmMghWCZU2-A$G1wWbmadXJS1lMiiT2yU0w0DHyyn3Au6BfPawg43XVY",
+      "roles": ["admin"],
+      "clearance_level": 5,
+      "is_active": true,
+      "unit": "HQ"
+    },
+    {
+      "user_id": "u_field_op_001",
+      "username": "field_op",
+      "password_hash": "pbkdf2_sha256$210000$e8OtfLnVms9XBgG9e9Echw$RD279DPGwyuilZoMnsbykS4kaNy2AQsrCc1IN9Dgfd0",
+      "roles": ["operator"],
+      "clearance_level": 2,
+      "is_active": true,
+      "unit": "Field"
+    }
+  ]
+}
+

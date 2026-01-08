@@ -1,0 +1,27 @@
+{
+  "name": "trivikrama-auth-slice",
+  "version": "1.0.0",
+  "description": "Production-grade authentication and authorization system with RBAC, clearance levels, and JWT-based security",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "authentication",
+    "authorization",
+    "jwt",
+    "rbac",
+    "security",
+    "defense",
+    "clearance"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
+
